@@ -4,13 +4,13 @@ This python code will help you Image Classifier as a beginner and also train you
 
 # Pre-requistes
 
-TensorFlow: 
+TensorFlow:
 ```
-$ sudo pip install tensorflow 
+$ sudo pip install tensorflow
 ```
 Keras:
 ```
-$ pip install keras 
+$ pip install keras
 ```
 matplotlib:
 ```
@@ -24,11 +24,11 @@ open the folder which you have created "Dataset_image" then create a sub-folder 
 
 # Training
 
-Ones you prepared your dataset it is the time to train. Open terminal or command prompt in the folder the run the "file train.py" by `$ pyhton train.py` 
+Ones you prepared your dataset it is the time to train. Open terminal or command prompt in the folder the run the "file train.py" by `$ pyhton train.py`
 
 # Prediction
 
-Ones you completed the training then come back to the same the repo and put the image you wanted to predict. If you wanted to predict cat (Take your phone and click an image of a cat then share it to the computer then put the file in predict folder. Open terminal in the folder and type * `$ python predict.py` 
+Ones you completed the training then come back to the same the repo and put the image you wanted to predict. If you wanted to predict cat (Take your phone and click an image of a cat then share it to the computer then put the file in predict folder. Open terminal in the folder and type * `$ python predict.py`
 
 # Useful Links
 
