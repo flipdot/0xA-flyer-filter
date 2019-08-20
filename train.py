@@ -34,9 +34,9 @@ num_classes = y_train.shape[1]
 # Create the model
 model = Sequential()
 model.add(
-    Conv1D(
+    Conv2D(
         32,
-        (3),
+        (3,1),
         input_shape=(64, 64),
         padding="same",
         activation="relu",
@@ -45,7 +45,7 @@ model.add(
 )
 model.add(Dropout(0.2))
 model.add(
-    Conv1D(32, (3), activation="relu", padding="same", kernel_constraint=maxnorm(3))
+    Conv2D(32, (3,1), activation="relu", padding="same", kernel_constraint=maxnorm(3))
 )
 model.add(MaxPooling1D(pool_size=(2)))
 model.add(Flatten())
